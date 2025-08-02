@@ -1,135 +1,148 @@
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      color: #333;
-    }
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+<!DOCTYPE html>
+<html>
 
-    /* NAVBAR */
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    }
+<head>
+    
+    <title> Hackathon Project</title>
 
-    .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
 
-    nav a {
-      margin-left: 1.5rem;
-      color: white;
-      font-weight: bold;
-    }
+    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="description" content="Personal website">
+<meta name="keywords" content="website,assignment,project">
+<meta name="author" content="Israel Ango">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
 
-    /* HERO SECTION */
-    .hero {
-      background-color: #ccc;
-      text-align: center;
-      padding: 3rem 1rem;
-    }
+</head>
+    <body>
 
-    .hero img {
-      width: 150px;
-      border-radius: 50%;
-      margin-bottom: 1rem;
-    }
 
-    .hero h1 {
-      margin-bottom: 0.5rem;
-    }
+      
+<section class="hero" id="home">
 
-    .hero .cv-button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.7rem 1.5rem;
-      background-color: #333;
-      color: white;
-      border-radius: 5px;
-    }
 
-    /* SECTIONS */
-    section {
-      padding: 2rem;
-      background-color: #e0e0e0;
-      margin: 1rem 0;
-    }
+<h1> Hi, I'm ISRAEL ANGO a Software Engineer </h1> 
 
-    section h2 {
-      margin-bottom: 1rem;
-    }
+ <img src="my pic.jpg" width="200" ">
 
-    /* PROJECTS */
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-    }
 
-    .project-card {
-      background-color: #fff;
-      padding: 1rem;
-      border-radius: 5px;
-    }
+</section>
+       
+<section id="CODING LANGUAGES">
+<H3>PROGRAMMING LANGUAGES:</H3>
+<ul>
+    <li>Python</li>
+ <li>HTML</li>
+  <li>CSS</li>
 
-    .project-card img {
-      width: 100%;
-      height: auto;
-      border-radius: 5px;
-    }
 
-    /* CONTACT SECTION */
-    .contact {
-      text-align: center;
-    }
 
-    .contact i {
-      font-size: 1.5rem;
-      margin: 0 0.5rem;
-    }
+</ul>
+</section>
 
-    /* FOOTER */
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-    }
 
-    footer a {
-      color: white;
-      margin: 0 0.5rem;
-      font-size: 1.2rem;
-    }
 
-    /* RESPONSIVE NAV */
-    @media (max-width: 600px) {
-      nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-      }
-    }
+<section id="about">
+
+<h3>ABOUT SECTION:</h3>
+<p>
+    I’m a data analyst and emerging software developer with a passion for turning complex information into actionable solutions. With a foundation in data cleaning, visualization, and reporting, I help organizations make informed decisions using tools like Excel, SQL, and Python.
+
+As I grow in my software development journey, I'm building skills in HTML, CSS, and JavaScript — aiming to create tools and applications that are not only functional but impactful.
+
+I’m driven by curiosity, continuous learning, and a desire to use technology and data to solve real-world problems.
+
+
+
+</section>
+
+
+<section id="EDUCATIONAL BACKGROUND">
+
+<h3>EDUCATIONAL BACKGROUND:</h3>
+<p>
+
+
+I graduated with a Bachelor’s degree in Business Admiistration from Ecotes University Benin Republic, where I developed a deep understanding of people's management, organizational behavior, and developmental studies.Always eager to grow, I’ve taken my learning beyond the classroom teaching myself data analysis, MySQL, Python, and HR strategy through online courses. Right now, I’m working toward my CIPM certification and exploring how data and technology can transform decision-making in HR and development work.
+</p>
+<a href="Israel Ango PDF.pdf"> 
+
+<button style="background-color: bisque;color: rgb(13, 12, 12);">DOWNLOAD</button>
+
+</a>
+</section>
+
+
+
+<section id="INTERESTS">
+    
+<h3>INTERESTS:</h3>
+<ul>
+
+    <li>Human Resource Strategy & Development</li>
+<li>Data Analysis & Visualization</li>
+<li>AI Applications in HR & Social Impact</li>
+<li>SQL & Python Programming</li>
+<li>Learning Management Systems (LMS)</li>
+<li>Youth Mentorship & Career Coaching</li>
+<li>Writing & Blogging (HR, Tech, Data)</li>
+<li>Web Development with HTML & CSS</li>
+<li>Tech for Nonprofits & NGOs</li>
+
+
+</ul>
+
+</section>
+
+<section id="PROJECTS">
+
+<h3>PROJECTS:</h3>
+<h4>2015 Election Analysis Dashboard using Pwer BI</h4>
+<a href="2015 Election Assignment.pbix"><button style="background-color: bisque;color: rgb(13, 12, 12);">PROJECT ONE</button></a>
+
+<h4>HR Employee Analysis using Power BI</h4>
+<a href="My HR Assignment.pbix"><button style="background-color: bisque;color: rgb(13, 12, 12);">PROJECT TWO</button></a>
+
+</section>
+
+<section id="CONTACT">
+
+<h3>CONTACT FORM</h3>
+<form>
+    <label><b>FULL NAME:</b></label>
+<input type ="text" placeholder="Enter your name">
+
+<label><b>EMAIL:</b></label>
+<input type ="text" placeholder="Enter your EMAIL">
+
+
+</form>
+</section>
+
+
+    </body>
+    
+
+<footer>
+    
+    <ul>
+        <li><a href="https://www.facebook.com/yourprofile">Facebook</a></li>
+        <li><a href="https://www.instagram.com/yourprofile">Instagram</a></li>
+        <li><a href="https://www.twitter.com/yourprofile">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a></li>
+        <li><a href="https://www.github.com/yourprofile">GitHub</a></li>
+    </ul>
+
+    <p>&copy ISRAEL ANGO 2025. All rights reserved.</p>
+    
+
+
+
+
+
+
+</footer>
+
+
+</html>
