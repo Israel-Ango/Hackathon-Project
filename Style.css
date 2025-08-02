@@ -1,0 +1,135 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* NAVBAR */
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background-color: #ccc;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .hero img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    .hero .cv-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background-color: #333;
+      color: white;
+      border-radius: 5px;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 2rem;
+      background-color: #e0e0e0;
+      margin: 1rem 0;
+    }
+
+    section h2 {
+      margin-bottom: 1rem;
+    }
+
+    /* PROJECTS */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .project-card {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    /* CONTACT SECTION */
+    .contact {
+      text-align: center;
+    }
+
+    .contact i {
+      font-size: 1.5rem;
+      margin: 0 0.5rem;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    footer a {
+      color: white;
+      margin: 0 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    /* RESPONSIVE NAV */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+      }
+    }
